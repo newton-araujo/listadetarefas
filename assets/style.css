@@ -1,0 +1,74 @@
+/* Title */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body {
+    background: whitesmoke;
+}
+
+
+.title {
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: 1px solid gray;
+    border-radius: 1rem;
+}
+
+.input #novaTarefa {
+    padding: 0.2rem 1rem;
+    border: none;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.input #addTarefa {
+    padding: 0.2rem 1rem;
+    border: none;
+    border-radius: 0 1rem 1rem 0;
+}
+
+#lista {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+#lista .lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.btnExcluir {
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 2rem;
+    margin: 0.5rem ;
+}
+
+.btnExcluir img {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 2rem;
+}
